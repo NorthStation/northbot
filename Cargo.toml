@@ -1,0 +1,9 @@
+[package]
+name = "northbot"
+version = "0.0.1"
+edition = "2021"
+authors = ["Veritius <veritiusgaming@gmail.com>"]
+
+[dependencies]
+poise = "0.3.0"
+tokio = { version = "1.21.1", features = ["full"] }
